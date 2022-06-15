@@ -71,12 +71,12 @@ img {
 
 .header-wrap {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-wrap .left,
 .header-wrap .right {
-  width: 50%;
-  gap: 2px;
+  width: 42%;
 }
 
 .header-wrap .left {
