@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hamburger</title>
+    <title>Hamburger - Odin Recipes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,17 +12,17 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="header"></div>
-      <h1>Hamburger</h1>
-      <hr class="mini-line" />
-      <p class="tagline">An American Classic</p>
-
+      <div class="header" id="header">
+        <h1>Hamburger</h1>
+        <hr class="mini-line" />
+        <p class="tagline">An American Classic</p>
+      </div>
       <img
-        src="img/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg"
+        src="../img/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg"
         alt="A Hamburger with fries"
         class="food"
       />
@@ -51,6 +51,28 @@
         </div>
       </main>
     </div>
+    <section class="instructions">
+      <div class="container steps">
+        <h2>Instructions</h2>
+        <ol>
+          <li>
+            <span>Step 1</span> Preheat an outdoor grill for medium-high heat
+            and lightly oil the grate.
+          </li>
+          <li>
+            <span>Step 2</span>Mix the ground beef, onion, garlic,
+            Worcestershire sauce, salt, and pepper in a bowl. Mix in the beer
+            until absorbed by the meat mixture. Form into patties.
+          </li>
+          <li>
+            <span>Step 3</span>Cook on the preheated grill until the burgers are
+            cooked to your desired degree of doneness, about 5 minutes per side
+            for well done. An instant-read thermometer inserted into the center
+            should read 160 degrees F (70 degrees C).
+          </li>
+        </ol>
+      </div>
+    </section>
     <footer>
       <div class="title">
         <h3>Odin Recipes</h3>
@@ -58,9 +80,11 @@
       <h4>All Rights Reserved 2022&copy;</h4>
 
       <ul>
-        <li><a href="index.html">Return Home</a></li>
-        <li><a href="./pasta.html">Pizza</a></li>
-        <li><a href="./pizza.html">Spaghetti</a></li>
+        <li><a href="#header">Back to top</a></li>
+        <hr style="margin: 5px 0" />
+        <li><a href="../index.html">Return Home</a></li>
+        <li><a href="pizza.html">Pizza</a></li>
+        <li><a href="pasta.html">Spaghetti</a></li>
       </ul>
     </footer>
   </body>
