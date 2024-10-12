@@ -1,91 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hamburger - Odin Recipes</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hamburger - Odin Recipes</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link rel="stylesheet" href="../style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="header" id="header">
-        <h1>Hamburger</h1>
-        <hr class="mini-line" />
-        <p class="tagline">An American Classic</p>
-      </div>
-      <img
-        src="../img/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg"
-        alt="A Hamburger with fries"
-        class="food"
-      />
-      <hr />
+		<link rel="stylesheet" href="../style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="header" id="header">
+				<h1>Hamburger</h1>
+				<hr class="mini-line" />
+				<p class="tagline">An American Classic</p>
+			</div>
+			<img
+				src="../img/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg"
+				alt="A Hamburger with fries"
+				class="food"
+			/>
+			<hr />
 
-      <main>
-        <h2>The Recipe</h2>
-        <div class="info">
-          <ol>
-            <span>What you'll need</span>
-            <li>1lb of ground beef</li>
-            <li>2 slices of cheddar cheese</li>
-            <li>1 red onion sliced</li>
-            <li>1 tomato sliced</li>
-            <li>1 toasted bun</li>
-          </ol>
-          <iframe
-            width="450"
-            height="320"
-            src="https://www.youtube.com/embed/vVvlgy37-cw"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </main>
-    </div>
-    <section class="instructions">
-      <div class="container steps">
-        <h2>Instructions</h2>
-        <ol>
-          <li>
-            <span>Step 1</span> Preheat an outdoor grill for medium-high heat
-            and lightly oil the grate.
-          </li>
-          <li>
-            <span>Step 2</span>Mix the ground beef, onion, garlic,
-            Worcestershire sauce, salt, and pepper in a bowl. Mix in the beer
-            until absorbed by the meat mixture. Form into patties.
-          </li>
-          <li>
-            <span>Step 3</span>Cook on the preheated grill until the burgers are
-            cooked to your desired degree of doneness, about 5 minutes per side
-            for well done. An instant-read thermometer inserted into the center
-            should read 160 degrees F (70 degrees C).
-          </li>
-        </ol>
-      </div>
-    </section>
-    <footer>
-      <div class="title">
-        <h3>Odin Recipes</h3>
-      </div>
-      <h4>All Rights Reserved 2022&copy;</h4>
+			<main>
+				<h2>The Recipe</h2>
+				<div class="info">
+					<ol role="list">
+						<span>What you'll need</span>
+						<li>1lb of ground beef</li>
+						<li>2 slices of cheddar cheese</li>
+						<li>1 red onion sliced</li>
+						<li>1 tomato sliced</li>
+						<li>1 toasted bun</li>
+					</ol>
+					<iframe
+						width="450"
+						height="320"
+						src="https://www.youtube.com/embed/vVvlgy37-cw"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+			</main>
+		</div>
+		<section class="instructions">
+			<div class="container steps">
+				<h2>Instructions</h2>
+				<h4>Steps</h4>
+				<ol role="list" class="steps-guide">
+					<li>
+						<span class="visually-hidden">Step 1</span>
+						<div>
+							<p>
+								Preheat an outdoor grill for medium-high heat and lightly oil
+								the grate.
+							</p>
+						</div>
+					</li>
+					<li class="bleed">
+						<span class="visually-hidden">Step 2</span>
+						<div>
+							<p>
+								Mix the ground beef, onion, garlic, Worcestershire sauce, salt,
+								and pepper in a bowl. Mix in the beer until absorbed by the meat
+								mixture. Form into patties.
+							</p>
+						</div>
+					</li>
+					<li>
+						<span class="visually-hidden">Step 3</span>
+						<div>
+							<p>
+								Cook on the preheated grill until the burgers are cooked to your
+								desired degree of doneness, about 5 minutes per side for well
+								done. An instant-read thermometer inserted into the center
+								should read 160 degrees F (70 degrees C).
+							</p>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</section>
+		<footer>
+			<div class="title">
+				<h3>Odin Recipes</h3>
+			</div>
+			<h4>All Rights Reserved 2022&copy;</h4>
 
-      <ul>
-        <li><a href="#header">Back to top</a></li>
-        <hr style="margin: 5px 0" />
-        <li><a href="../index.html">Return Home</a></li>
-        <li><a href="pizza.html">Pizza</a></li>
-        <li><a href="pasta.html">Spaghetti</a></li>
-      </ul>
-    </footer>
-  </body>
+			<ul>
+				<li><a href="#header">Back to top</a></li>
+				<hr style="margin: 5px 0" />
+				<li><a href="../index.html">Return Home</a></li>
+				<li><a href="pizza.html">Pizza</a></li>
+				<li><a href="pasta.html">Spaghetti</a></li>
+			</ul>
+		</footer>
+	</body>
 </html>

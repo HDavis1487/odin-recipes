@@ -1,110 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pasta - Odin Recipes</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pasta - Odin Recipes</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link rel="stylesheet" href="../style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="header" id="header">
-        <h1>Spaghetti</h1>
-        <hr class="mini-line" />
-        <p class="tagline">An American Classic</p>
-      </div>
-      <img
-        src="../img/clark-douglas-17ZU9BPy_Q4-unsplash.jpg"
-        alt="A plate of spaghetti"
-        class="food"
-      />
-      <hr />
+		<link rel="stylesheet" href="../style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="header" id="header">
+				<h1>Spaghetti</h1>
+				<hr class="mini-line" />
+				<p class="tagline">An American Classic</p>
+			</div>
+			<img
+				src="../img/clark-douglas-17ZU9BPy_Q4-unsplash.jpg"
+				alt="A plate of spaghetti"
+				class="food"
+			/>
+			<hr />
 
-      <main>
-        <h2>The Recipe</h2>
-        <div class="info">
-          <ol>
-            <span>What you'll need</span>
-            <li>1 (16 ounce) package spaghetti</li>
-            <li>1 pound ground beef 1 onion, chopped</li>
-            <li>1 (32 ounce) jar meatless spaghetti sauce</li>
-            <li>½ teaspoon seasoned salt 2 eggs</li>
-            <li>⅓ cup grated Parmesan cheese</li>
-            <li>5 tablespoons butter, melted</li>
-            <li>2 cups small curd cottage cheese, divided</li>
-            <li>5 cups shredded mozzarella cheese, divided</li>
-          </ol>
-          <iframe
-            width="450"
-            height="320"
-            src="https://www.youtube.com/embed/c0aIsuxJlbg"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </main>
-    </div>
-    <section class="instructions">
-      <div class="container steps">
-        <h2>Instructions</h2>
-        <ol>
-          <li>
-            <span>Step 1</span> Preheat the oven to 350 degrees F (175 degrees
-            C). Lightly grease a 9x13-inch baking dish.
-          </li>
-          <li>
-            <span>Step 2</span>Bring a large pot of lightly salted water to a
-            boil. Cook spaghetti in boiling water, stirring occasionally, until
-            tender but firm to the bite, about 12 minutes. Drain.
-          </li>
-          <li>
-            <span>Step 3</span> Heat a large skillet over medium heat. Cook and
-            stir beef and onion in the hot skillet until meat is browned and
-            onion is soft and translucent, about 7 minutes. Drain excess oil
-            from the pan. Stir in spaghetti sauce and seasoned salt.
-          </li>
-          <li>
-            <span>Step 4</span> Whisk eggs, Parmesan, and butter in a large
-            bowl. Add spaghetti and toss to coat.
-          </li>
-          <li>
-            <span>Step 5</span> Place 1/2 of the spaghetti mixture in the
-            prepared dish. Top with 1/2 of the cottage cheese, 2 cups
-            mozzarella, and 1/2 of meat sauce. Repeat layers. Cover with
-            aluminum foil.
-          </li>
-          <li>
-            <span>Step 6</span> Bake in the preheated oven for 40 minutes.
-            Remove the foil and sprinkle with remaining mozzarella. Continue to
-            bake until cheese is melted and lightly browned, 20 to 25 minutes.
-          </li>
-        </ol>
-      </div>
-    </section>
+			<main>
+				<h2>The Recipe</h2>
+				<div class="info">
+					<ol role="list">
+						<span>What you'll need</span>
+						<li>1 (16 ounce) package spaghetti</li>
+						<li>1 pound ground beef 1 onion, chopped</li>
+						<li>1 (32 ounce) jar meatless spaghetti sauce</li>
+						<li>½ teaspoon seasoned salt 2 eggs</li>
+						<li>⅓ cup grated Parmesan cheese</li>
+						<li>5 tablespoons butter, melted</li>
+						<li>2 cups small curd cottage cheese, divided</li>
+						<li>5 cups shredded mozzarella cheese, divided</li>
+					</ol>
+					<iframe
+						width="450"
+						height="320"
+						src="https://www.youtube.com/embed/c0aIsuxJlbg"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+			</main>
+		</div>
+		<section class="instructions">
+			<div class="container steps">
+				<h2>Instructions</h2>
+				<ol role="list" class="steps-guide">
+					<h4>Steps</h4>
+					<li class="bleed">
+						<span class="visually-hidden">Step 1</span>
+						<div>
+							<p>
+								Preheat the oven to 350 degrees F (175 degrees C). Lightly
+								grease a 9x13-inch baking dish.
+							</p>
+						</div>
+					</li>
+					<li class="">
+						<span class="visually-hidden">Step 2</span>
+						<div>
+							<p>
+								Bring a large pot of lightly salted water to a boil. Cook
+								spaghetti in boiling water, stirring occasionally, until tender
+								but firm to the bite, about 12 minutes. Drain.
+							</p>
+						</div>
+					</li>
+					<li class="bleed">
+						<span class="visually-hidden">Step 3</span>
+						<div>
+							<p>
+								Heat a large skillet over medium heat. Cook and stir beef and
+								onion in the hot skillet until meat is browned and onion is soft
+								and translucent, about 7 minutes. Drain excess oil from the pan.
+								Stir in spaghetti sauce and seasoned salt.
+							</p>
+						</div>
+					</li>
+					<li>
+						<span class="visually-hidden">Step 4</span>
+						<div>
+							<p>
+								Whisk eggs, Parmesan, and butter in a large bowl. Add spaghetti
+								and toss to coat.
+							</p>
+						</div>
+					</li>
+					<li class="bleed">
+						<span class="visually-hidden">Step 5</span>
+						<div>
+							<p>
+								Place 1/2 of the spaghetti mixture in the prepared dish. Top
+								with 1/2 of the cottage cheese, 2 cups mozzarella, and 1/2 of
+								meat sauce. Repeat layers. Cover with aluminum foil.
+							</p>
+						</div>
+					</li>
+					<li>
+						<span class="visually-hidden">Step 6</span>
+						<div>
+							<p>
+								Bake in the preheated oven for 40 minutes. Remove the foil and
+								sprinkle with remaining mozzarella. Continue to bake until
+								cheese is melted and lightly browned, 20 to 25 minutes.
+							</p>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</section>
 
-    <footer>
-      <div class="title">
-        <h3>Odin Recipes</h3>
-      </div>
-      <h4>All Rights Reserved 2022&copy;</h4>
+		<footer>
+			<div class="title">
+				<h3>Odin Recipes</h3>
+			</div>
+			<h4>All Rights Reserved 2022&copy;</h4>
 
-      <ul>
-        <li><a href="#header">Back to top</a></li>
-        <hr style="margin: 5px 0" />
-        <li><a href="../index.html">Return home</a></li>
-        <li><a href="pizza.html">Pizza</a></li>
-        <li><a href="burger.html">Hamburger</a></li>
-      </ul>
-    </footer>
-  </body>
+			<ul>
+				<li><a href="#header">Back to top</a></li>
+				<hr style="margin: 5px 0" />
+				<li><a href="../index.html">Return home</a></li>
+				<li><a href="pizza.html">Pizza</a></li>
+				<li><a href="burger.html">Hamburger</a></li>
+			</ul>
+		</footer>
+	</body>
 </html>
